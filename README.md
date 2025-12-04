@@ -15,20 +15,20 @@ The system produces explainable, muscle-driven emotion detection.
 
 ---
 
-# 🚀 Features
+#  Features
 
-## ✅ Stage 1: Landmark Detection  
+## Stage 1: Landmark Detection  
 - Extract 468 facial landmarks from any image using MediaPipe.
 - Draws and saves landmark points for downstream processing.
 
-## ✅ Stage 2: Interactive Muscle Annotation Tool  
+##  Stage 2: Interactive Muscle Annotation Tool  
 A GUI tool where you click on the face to define the muscle regions:
 
 ### Currently supported muscles:
 
 ### **Upper Face Muscles**
-- **Frontalis – Origin (forehead)**  
-- **Frontalis – Insertion (eyebrow elevation)**  
+- **Frontalis - Origin (forehead)**  
+- **Frontalis - Insertion (eyebrow elevation)**  
 - **Orbicularis Oculi (eye ring muscle)**  
 
 ### **Mid Face Muscles**
@@ -36,8 +36,8 @@ A GUI tool where you click on the face to define the muscle regions:
   → Strong indicator of anger, disgust, or snarl  
 
 ### **Lower Face Muscles**
-- **Zygomaticus Major – Origin (cheekbone)**  
-- **Zygomaticus Major – Insertion (mouth corner for smile)**  
+- **Zygomaticus Major - Origin (cheekbone)**  
+- **Zygomaticus Major - Insertion (mouth corner for smile)**  
 - **Depressor Anguli Oris (mouth corner downward movement for sadness)**  
 
 Each click you make maps the nearest MediaPipe landmark automatically.  
@@ -47,7 +47,7 @@ Auto-saves to: muscles.py
 
 ---
 
-# 🎨 Stage 3: Muscle Visualization  
+#  Stage 3: Muscle Visualization  
 The system draws anatomical muscle bands on the input image:
 
 - Origins → Insertions  
@@ -64,7 +64,7 @@ Useful for:
 
 ---
 
-# 🧠 Stage 4: Muscle Activation Computation  
+#  Stage 4: Muscle Activation Computation  
 Each muscle’s "activation" is computed using geometric changes:
 
 - Vector displacement  
@@ -77,9 +77,9 @@ This produces a **muscle activation fingerprint (MAF)** for each face.
 
 ---
 
-# 😃 Stage 5: Expression Recognition (Anatomy-Based)
+#  Stage 5: Expression Recognition (Anatomy-Based)
 
-No ML datasets needed — emotions are inferred through muscle signatures:
+No ML datasets needed - emotions are inferred through muscle signatures:
 
 | Emotion       |           Key Muscles Activated                 |
 |---------------|-------------------------------------------------|
@@ -93,7 +93,7 @@ This makes the system **interpretable**, **scientific**, and **biologically grou
 
 ---
 
-# 📁 Directory Structure
+#  Directory Structure
 
 FER_MOS/
 │
@@ -109,7 +109,7 @@ FER_MOS/
 
 ---
 
-# 🛠 Installation
+#  Installation
 
 ### 1. Clone the repo
 ```bash
